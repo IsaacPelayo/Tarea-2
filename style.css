@@ -1,0 +1,40 @@
+html {
+    font-family: sans-serif;
+}
+
+body {
+    width: 50%;
+    max-width: 800px;
+    min-width: 480px;
+    margin: 0 auto;
+}
+  
+.form input[type="number"] {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.lastResult {
+    color: white;
+    padding: 3px;
+}
+
+.fondo {
+    /* Estilos para el fondo */
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
+    background-position: center; /* Centra la imagen en el fondo */
+    height: 100vh; /* Altura del fondo, puedes ajustarlo según tus necesidades */
+}
+  
+.sobreponer {
+    /* Estilos para el div que se sobrepondrá */
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #17cfc3;
+    padding: 20px;
+    border-radius: 10px;
+    opacity: 0.89; /* Estableciendo la opacidad */
+}
+
